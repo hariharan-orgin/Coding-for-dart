@@ -1,0 +1,5 @@
+void main() {
+  List<int> dup=[1,2,2,3,4,4,5];
+  dup=dup.toSet().toList();
+  print(dup);
+}
